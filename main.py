@@ -5,7 +5,7 @@ import re
 
 def process_excel(input_file):
     # Load the Excel file into a pandas DataFrame
-    df = pd.read_excel(input_file, sheet_name='Sheet1')
+    df = pd.read_excel(input_file, sheet_name='Sheet1', engine='openpyxl')
 
     # Create new columns for each tag
     tags = ['University', 'Program', 'Major', 'Percent_CGPA', 'US_GPA', 'ELA',
