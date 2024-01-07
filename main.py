@@ -21,7 +21,7 @@ def process_excel(input_file):
 
 
 def main():
-    st.title("Excel Data Processing App")
+    st.title("GPA Notes Separator Application")
 
     uploaded_file = st.file_uploader("Choose an Excel file", type="xlsx")
 
