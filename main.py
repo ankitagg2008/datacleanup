@@ -8,7 +8,7 @@ def process_excel(input_file):
     df = pd.read_excel(input_file, sheet_name='Sheet1', engine='openpyxl')
 
     # Create new columns for each tag
-    tags = ['University', 'Program', 'Major', 'Classification', 'Percent_CGPA', 'US_GPA', 'ELA',
+    tags = ['University', 'Program', 'Major', 'Classification', 'Percent_CGPA', 'US_GPA', 'ELA', 'ELA_READING', 'ELA_WRITING', 'ELA_LISTENING', 'ELA_SPEAKING', 'ELA_OVERALL',   
             'Number_of_Years', 'Number_of_backlogs', 'Missing_Docs',
             'Subjects_with_Backlogs', 'NAAC_Accredited', 'Degree_Conferred_Certificate', 'Work Experience', 'Prerequistes', 'Remarks', 'TRANSCRIPT', 'CNFRNG', 'COURSES', 'NACES', 'ELP', 'RESUME', 'SOP']
 
